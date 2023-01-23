@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Sign-up Page</title>
+    <link rel='stylesheet' href='styles.css'>
+</head>
+<body>
+    <div class='container'>
+        <div class='left-side'>
+            <div class='banner'>
+                <img src='/images/odin-lined.png' alt='odin'>
+                ODIN
+            </div>
+            <p class='credit'>
+                Photo by <a href='https://unsplash.com/@benkelsey?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Ben Kelsey</a> on <a href='https://unsplash.com/photos/u7atjifkqlc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
+            </p>
+        </div>
+        <div class='right-side'>
+            <p class='text'>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+            <p class='sentence'> You <em>know</em> you want to.</p>
+            <form action='' method='post'>
+                <div class='white-section'>
+                    <h1>Let's do this!</h1>
+                    <section class='list'>
+                    <p class='input'>
+                        <label for='first-name'>FIRST NAME</label>
+                        <input type='text' id='first-name' name='first-name' required/>
+                    </p>
+                    <p class='input'>
+                        <label for='first-name'>LAST NAME</label>
+                        <input type='text' id='last-name' name='last-name' required>
+                    </p>
+                    <p class='input'>
+                        <label for='email'>EMAIL</label>
+                        <input type='email' id='email' name='email'>
+                    </p>
+                    <p class='input'>
+                        <label for='phone'>PHONE NUMBER</label>
+                        <input type='number' id='phone' name='phone'>
+                    </p>
+                    <p class='input'>
+                        <label for='pass'>PASSWORD</label>
+                        <input type='password' id='pass' name='password' required>
+                    </p>
+                    <p class='input'>
+                        <label for='confirm-pass'>CONFIRM PASSWORD</label>
+                        <input type='password' id='confirm-pass' name='confirm-pass' required>
+                    </p>
+                    </section>
+                </div>
+                <section class='button'>
+                    <p class='btn'>
+                        <button type='submit'>Create Account</button>
+                    </p>
+                </section>
+            </form>
+            <footer>Already have an account? <a class='log-in' href='url'>Log in</a><footer>
+        </div>
+    </div>
+    <script src='/app.js'></script>
+</body>
+</html>
